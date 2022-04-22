@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+   position:absolute;
+   top:30%;
+   left:5%;
+   transform:translate(0,-50);
+    display: grid;
+   grid: 85px 85px 85px/ 85px 85px 85px;
+   width:90%;
+   margin: auto;
+   /* background-color:rgb(243, 236, 244); */
+   justify-content:center;
+}
+
+.container > div{
+    background-color:rgb(243, 236, 244);
+    border: 2px solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header{
+    height: 6rem;
+    background-color:rgb(52, 11, 52);
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2.5rem;
+}
+
+.bottom{
+    background-color:rgb(255, 255, 255);
+    color:rgb(76, 51, 22);
+    margin: auto;
+    width: 14%;
+    font-size:  2.3rem;
+}
+.bottomwinner{
+    color:rgb(246, 45, 45);
+    margin: auto;
+    width: 18%;
+    font-size:  2.3rem;
+}
+
+.winner{
+    background-color:red !important;
+}
+
+.container >  div:hover{
+background-color:rgb(232, 249, 251);
+border:1.5px;
+}
+
+.reset >button {
+    background-color:rgb(115, 115, 230);
+    padding:10px;
+    font-size:2rem;
+    position:relative;
+
+}
+
+.reset{
+    margin: auto;
+    width:10%;
+}
+.image{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
